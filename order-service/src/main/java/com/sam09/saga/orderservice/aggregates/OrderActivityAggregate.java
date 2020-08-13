@@ -52,7 +52,7 @@ public class OrderActivityAggregate {
 		this.price = _orderPlaceEvent.price;
 		this.orderStatus = Status.valueOf(_orderPlaceEvent.orderStatus);
 		this.currency = _orderPlaceEvent.currency;
-	}
+	} 
 	
 	//Order Status Update Aggregate 
 	@CommandHandler

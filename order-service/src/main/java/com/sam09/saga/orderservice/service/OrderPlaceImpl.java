@@ -36,5 +36,4 @@ public class OrderPlaceImpl implements IOrderPlaceService{
 				String.valueOf(Status.CREATED)
 				));
 	}
-
 }
