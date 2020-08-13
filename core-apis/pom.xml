@@ -14,8 +14,6 @@
 	<name>core-domain</name>
 	<description>Core Domain is comprising of Commands and its subsequent Event's structure of Order Management</description>
 
-	<packaging>jar</packaging>
-	
 	<properties>
 	 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -58,8 +56,8 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<skip>true</skip>
-				</configuration>
+                    <skip>true</skip>
+                </configuration>
 			</plugin>
 		</plugins>
 	</build>
