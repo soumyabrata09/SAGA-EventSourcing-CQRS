@@ -9,8 +9,8 @@ package sam09.saga.coredomain.eventModels;
  */
 public class InvoiceCreationEvent {
 
-	private final String orderId;
-	private final String payId;
+	public final String orderId;
+	public final String payId;
 	
 	public InvoiceCreationEvent(String _payId,String _orderId) {
 		this.payId = _payId;

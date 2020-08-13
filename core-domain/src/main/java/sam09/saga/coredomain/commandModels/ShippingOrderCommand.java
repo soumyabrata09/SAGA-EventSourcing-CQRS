@@ -12,9 +12,9 @@ import org.axonframework.modelling.command.TargetAggregateIdentifier;
 public class ShippingOrderCommand {
 
 	@TargetAggregateIdentifier
-	private final String shippingId;
-	private final String orderId;
-	private final String payId;
+	public final String shippingId;
+	public final String orderId;
+	public final String payId;
 	
 	public ShippingOrderCommand(String _shippingId, String _orderId, String _payId) {
 		this.shippingId = _shippingId;

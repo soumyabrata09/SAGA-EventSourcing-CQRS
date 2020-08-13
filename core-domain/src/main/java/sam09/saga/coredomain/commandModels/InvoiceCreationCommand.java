@@ -11,9 +11,9 @@ import org.axonframework.modelling.command.TargetAggregateIdentifier;
  */
 public class InvoiceCreationCommand {
 
-	private final String orderId;
 	@TargetAggregateIdentifier
-	private final String payId;
+	public final String payId;
+	public final String orderId;
 	
 	public InvoiceCreationCommand(String _payId,String _orderId) {
 		this.orderId = _orderId;

@@ -12,8 +12,8 @@ import org.axonframework.modelling.command.TargetAggregateIdentifier;
 public class OrderUpdateCommand {
 
 	@TargetAggregateIdentifier
-	private String orderId;
-	private String status;
+	public String orderId;
+	public String status;
 	
 	public OrderUpdateCommand(String _orderId,String _status) {
 		this.orderId = _orderId;
