@@ -35,5 +35,5 @@ public class OrderPlaceImpl implements IOrderPlaceService{
 				_orderPlaceDTO.getCurrency(),
 				String.valueOf(Status.CREATED)
 				));
-	}
+	} 
 }
