@@ -7,6 +7,7 @@ import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
 
 import org.axonframework.commandhandling.gateway.CommandGateway;
+import org.springframework.stereotype.Service;
 
 import com.sam09.saga.orderservice.dto.commands.OrderPlaceDTO;
 import com.sam09.saga.orderservice.enums.Status;
@@ -17,6 +18,7 @@ import sam09.saga.coredomain.commandModels.OrderPlaceCommand;
  * @author soumya
  *
  */
+@Service
 public class OrderPlaceImpl implements IOrderPlaceService{
 
 	private final CommandGateway commandGateway;
