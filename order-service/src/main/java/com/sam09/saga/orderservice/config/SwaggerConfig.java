@@ -20,7 +20,7 @@ public class SwaggerConfig {
 
 	@Bean
 	public Docket apiDocket(){
-		String basePackage = "";
+		String basePackage = "com.sam09.saga.orderservice.controller";
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
 				.apis(RequestHandlerSelectors.basePackage(basePackage))
